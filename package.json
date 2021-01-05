@@ -1,0 +1,28 @@
+{
+  "name": "air1-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "production": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "lodash": "^4.17.20",
+    "morgan": "~1.9.1",
+    "mqtt": "^4.2.1",
+    "mysql2": "^2.1.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
